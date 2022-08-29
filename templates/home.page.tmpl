@@ -1,0 +1,14 @@
+{{template "base" .}}
+{{define "content"}}
+
+    <h1>This is the home page</h1>
+    <p>Thanks to TMDB for the api,
+    iam building the application,
+    in process</p>
+        <img src="/static/images/download.png"/>
+    <p id="greet"></p>
+    <script>
+        let num = 8;
+        document.getElementById("greet").innerHTML="Bonjour"
+    </script>
+{{end}}
